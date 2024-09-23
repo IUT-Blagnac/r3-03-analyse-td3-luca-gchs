@@ -11,10 +11,18 @@ public class App
         System.out.println(hello());
     }
 
+    /**
+     * Methode écrivant Hello World en permanence 
+     * @return
+     */
     public static String hello() {
         return  "Hello World!" ;
     }
-
+    /**
+     * une méthode ??
+     * @param param
+     * @return
+     */
     public static String hello(String param) {
         return  param ;
     }
